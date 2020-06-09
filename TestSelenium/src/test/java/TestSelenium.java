@@ -10,21 +10,16 @@ public class TestSelenium {
 
         ChromeDriver driver = new ChromeDriver();
         driver.get("https://healthunify.com/bmicalculator/");
-
         //Ввод веса
         WebElement weight = driver.findElementByName("wg");
         weight.sendKeys("37.2");
-
         //Ввод роста
         WebElement height = driver.findElementByName("ht");
         height.sendKeys("140");
-
         //Нажать кнопку Рассчитать
         WebElement click = driver.findElementByName("cc");
         click.click();
-
-
-
-
+        //Закрыть браузер
+        driver.quit();
     }
 }
