@@ -6,7 +6,7 @@ public class TestSelenium {
 
     @Test
     public void test1(){
-        System.setProperty("webdriver.chrome.driver", "\\Users\\Tom\\IdeaProjects\\TestSelenium\\src\\driver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "\\GitRep\\AQA05\\TestSelenium\\src\\driver\\chromedriver.exe");
 
         ChromeDriver driver = new ChromeDriver();
         driver.get("https://healthunify.com/bmicalculator/");
