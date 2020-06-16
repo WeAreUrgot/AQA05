@@ -1,0 +1,12 @@
+{
+  "URL" : "Http://onliner.by",
+  "browserType" : "chrome",
+  "priority" : 1,
+  "paralellization" : false,
+  "DB" : null,
+  "employers" : ["Ivan", "Semen", "Petr"],
+  "testArray": [
+    {"name": "Ivan" , "age" : 32},
+    {"name": "Semen" , "age" : 48}
+  ]
+}
